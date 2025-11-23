@@ -1,0 +1,169 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: white;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #0066cc;
+    box-shadow: 0 2px 5px #eee;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+}
+
+nav ul li {
+    display: inline-block; 
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s; 
+}
+
+nav ul li a:hover {
+    color: #003366; 
+}
+
+
+h1, h2, h3 {
+    color: #0066cc;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center; 
+}
+
+h2 {
+    font-size: 24px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #0055bb;
+}
+
+
+.intro, .promos, .hours, .services-list, .team, .articles, .contact-info {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #eee;
+}
+
+
+img {
+    border-radius: 8px;
+    margin: 15px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.service-imgs {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+
+.doctor-card {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+
+.doctor-photo {
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+
+.article-card {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.article-img {
+    margin: 20px auto;
+    display: block; 
+    max-width: 80%;
+}
+
+
+.contact-details, .contact-hours {
+    margin-bottom: 20px;
+}
+
+.location-map {
+    margin-top: 20px;
+}
+
+
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+ul li, ol li {
+    margin-bottom: 8px;
+}
+
+
+footer {
+    background-color: #0066cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 8px 0;
+}
+
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block; 
+        margin: 10px 0;
+    }
+
+    .service-imgs {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 24px; 
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
